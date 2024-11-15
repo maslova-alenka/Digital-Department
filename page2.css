@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #EFA94A;
+}
+
+.navigation {
+    margin-top: 20px;
+ }
+  
+.site-navigation {
+    display: flex; /* Используем Flexbox для выравнивания */
+    justify-content: center; 
+    margin-left: 100px; 
+    list-style: none; /* Убираем маркеры списка */
+  }
+  
+.site-navigation-item {
+    margin-right: 10px;
+  }
+  
+.site-navigation-item a {
+    font-size: 24px;
+    color: #b34747;
+  }
+  
+.site-navigation-item a.active {
+    font-weight: bold;
+  }
+
+/* CSS стили для заголовков */
+h1 {
+    font-size: 45px;
+    color: #b34747;
+    margin-bottom: 20px;
+}
+
+
+
+
+.container {
+    background-color: #e8f8ad;
+    text-align: center;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #f6d70a;
+    margin: 0 auto;
+}
+
+.container-2 {
+    background-color: #e8f8ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #f6d70a;
+    margin: 0 auto;
+}
+
+.container-3 {
+    background-color: #e8f8ad;
+    border: solid white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block-3 {
+    background-color: #f6d70a;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #d0b622;
+}
+
+ .container img {
+    width: 200px; /* Ширина изображения */
+    margin-top: 10px;
+ } 
+
+.tmp {
+    margin-top: 50px;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(232, 240, 235);
+}
+
+.block4_1 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: solid #e40a06;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.block4_2 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: solid #0a13b0;
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+.block4_3 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: solid #17c80d;
+    position: relative;
+    top: 0px;
+    left: 400px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+ }

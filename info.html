@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Информация о Ким Ю Джон</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="info.css"> <!-- Подключение стилей -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <header>
+        <section class="navigation">
+            <nav class="main-header-nav">
+              <ul class="site-navigation">
+                <li class="site-navigation-item"> 
+                  <a href="lab1.html">Основная страница</a>
+                </li>
+                <li class="site-navigation-item">
+                  <a href="page2.html">Позиционирование элементов</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="table.html">Таблица</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a class="active" href="info.html">Информация</a>
+              </ul>
+            </nav>
+        </section>
+    </header>
+<body data-bs-spy="scroll">
+    <nav class="navbar navbar-expand-sm bg-light sticky-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Об актрисе
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#photo">Фотогалерея</a></li>
+                        <li><a class="dropdown-item" href="#films">Фильмография</a></li>
+                        <li><a class="dropdown-item" href="#bio">Краткая информация</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Фильмы</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="display-1">Ким Ю Джон</h1>
+    <div class="display-2-block">
+        <h2 class="display-2" id="photo">Фотогалерея</h2>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <p><img src="img/i1.webp" alt="Kim Yoo-jeong" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="img/i2.jpg" alt="Kim Yoo-jeong" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="img/i3.jpeg" alt="Kim Yoo-jeong" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="img/i4.jpg" alt="Kim Yoo-jeong" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="img/i5.jpg" alt="Kim Yoo-jeong" class="d-block" style="width:100%"></p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="display-2-block">
+        <h2 class="display-2" id="films">Фильмография</h2>
+    </div>
+
+    <div class="container mt-3 film">
+        <div class="card film">
+            <img class="card-img-top" src="img/f1.webp" alt="Мой демон">
+            <div class="card-body">
+                <h4 class="card-title">Мой демон</h4>
+                <p class="card-text">
+                    <u>Год производства: </u>2023<br>
+                    <u>Платформа: </u>Netflix<br>
+                    <u>Страна: </u>Южная Корея<br>
+                    <u>Жанр: </u>мелодрама, комедия, фэнтези<br>
+                    <u>Режиссер: </u>
+                    Ким Джан-хан, Квон Да-сом<br>
+                    <u>В главных ролях: </u>Ким Ю-джон, Сон Ган<br>
+                </p>
+            </div>
+            <a href="https://www.kinopoisk.ru/series/5396315/" class="btn btn-primary">подробнее</a>
+        </div>
+
+        <div class="card film">
+            <img class="card-img-top" src="img/f2.webp" alt="Продавец на полставки">
+            <div class="card-body">
+                <h4 class="card-title">Продавец на полставки</h4>
+                <p class="card-text">
+                    <u>Год производства: </u>2020<br>
+                    <u>Страна: </u>Южная Корея<br>
+                    <u>Жанр: </u>мелодрама, комедия<br>
+                    <u>Режиссер: </u>Ли Мён-у<br>
+                    <u>В главных ролях: </u>Чи Чхан-ук, Ким Ю-джон<br></p>
+            </div>
+            <a href="https://www.kinopoisk.ru/series/1343926/" class="btn btn-primary">подробнее</a>
+        </div>
+
+        <div class="card film">
+            <img class="card-img-top" src="img/f3.webp" alt="Лунный свет, нарисованный облаками">
+            <div class="card-body">
+                <h4 class="card-title">Лунный свет, нарисованный облаками</h4>
+                <p class="card-text">
+                    <u>Год производства: </u>2016<br>
+                    <u>Страна: </u>Южная Корея<br>
+                    <u>Жанр: </u>мелодрама, комедия<br>
+                    <u>Режиссер: </u>Ким Сон-юн, Пэк Сан-хун<br>
+                    <u>В главных ролях: </u>Пак По-гом, Ким Ю-джон<br>
+                </p>
+            </div>
+            <a href="https://www.kinopoisk.ru/series/981103/" class="btn btn-primary">подробнее</a>
+        </div>
+    </div>
+    <div class="display-2-block">
+        <h2 class="display-2" id="bio">Краткая информация</h2>
+    </div>
+
+    <div class="container bio">
+        <div class="card bio">
+            <div id="demo1" class="collapse show">
+                <div class="card-body">
+                    Ким Ю Джон — южнокорейская актриса кино и телевидения, модель и ведущая. Родилась 22 сентября 1999 года в Сеуле, Южная Корея.
+                </div>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Подробнее
+                  </button>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Дебютировала в киноиндустрии в 2003 году в возрасте 4 лет. 3 В пять лет девочка в качестве модели участвовала в благотворительном показе мод для детей из малообеспеченных семей.Свою первую ведущую роль она получила в исторической любовной драме «Лунный свет, нарисованный облаками» (2016). 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bio">
+            <div class="card-header">
+                <h2>Фильмы</h2>
+                <a href="films.html" class="btn btn-primary">Перейти к фильмам с Ким Ю Джон</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

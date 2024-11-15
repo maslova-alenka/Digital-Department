@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 4-5</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<header>
+    <section class="navigation">
+        <nav class="main-header-nav">
+          <ul class="site-navigation">
+            <li class="site-navigation-item"> 
+                <a href="lab1.html">Основная страница</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="page2.html">Позиционирование элементов</a>
+            </li>
+            <li class="site-navigation-item">
+              <a class="active" href="table.html">Таблица</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="info.html">Информация</a>
+          </li>
+          </ul>
+        </nav>
+    </section>
+</header>
+
+  <main>
+    <h2>ДОРАМЫ</h2>
+    <table>
+      <caption>Мои любимые дорамы</caption>
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>Название</th>
+          <th>Год выхода</th>
+          <th>Количество серий</th>
+          <th>Количество сезонов</th>
+          <th>Жанр</th>
+          <th>Рейтинг (на кинопоиске)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><a href="https://www.kinopoisk.ru/series/1330171/">Сказание о кумихо</a></td>
+          <td>2020</td>
+          <td>16</td>
+          <td>1</td>
+          <td>Мелодрама, фэнтези</td>
+          <td>8.4</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><a href="https://www.kinopoisk.ru/series/4308954/">Слава</a></td>
+          <td>2022-2023</td>
+          <td>16</td>
+          <td>2</td>
+          <td>Драма</td>
+          <td>8.5</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><a href="https://www.kinopoisk.ru/series/1338255/">Цветок зла</a></td>
+          <td>2020</td>
+          <td>16</td>
+          <td>1</td>
+          <td>Триллер, детектив, мелодрама, криминал</td>
+          <td>8.3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><a href="https://www.kinopoisk.ru/series/1387213/">Королева Чорин</a></td>
+          <td>2020-2021</td>
+          <td>20</td>
+          <td>1</td>
+          <td>Комедия, фэнтези</td>
+          <td>8.7</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><a href="https://www.kinopoisk.ru/series/1399056/">Дьявольский судья</a></td>
+          <td>2021</td>
+          <td>16</td>
+          <td>1</td>
+          <td>Криминал, боевик, фантастика</td>
+          <td>8.4</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><a href="https://www.kinopoisk.ru/series/888109/">Хилер</a></td>
+          <td>2014-2015</td>
+          <td>20</td>
+          <td>1</td>
+          <td>Триллер, мелодрама, детектив</td>
+          <td>8.5</td>
+        </tr>
+
+      </tbody>
+    </table>
+    <form action="/action_page.php">
+      <input type="number" name="number" placeholder="№" required>
+      <input type="text" name="name" placeholder="Название" required>
+      <input type="text" name="year" placeholder="Год выхода" required>
+      <input type="number" name="series" placeholder="Количество серий" required>
+      <input type="number" name="season" placeholder="Количество сезонов" required>
+      <input type="text" name="genre" placeholder="Жанр" required>
+      <input type="text" name="rating" placeholder="Рейтинг" required>
+      <button type="submit">Добавить</button>
+   </form>
+  </main>
+
+  <footer>
+    <!-- Ваш футер -->
+  </footer>
+</body>
+</html>
